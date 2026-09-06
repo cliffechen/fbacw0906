@@ -1,0 +1,14 @@
+# AG1 gallery (main + secondary images)
+gallery-1 https://m.media-amazon.com/images/I/31bYD27AjQL._AC_SL1500_.jpg
+gallery-2 https://m.media-amazon.com/images/I/41cOZ7oS8SL._AC_SL1500_.jpg
+gallery-3 https://m.media-amazon.com/images/I/41%2BdoZDn8wL._AC_SL1500_.jpg
+gallery-4 https://m.media-amazon.com/images/I/51fFxtfj-PL._AC_SL1500_.jpg
+gallery-5 https://m.media-amazon.com/images/I/41QdQgtjAQL._AC_SL1500_.jpg
+gallery-6 https://m.media-amazon.com/images/I/51-hGwsBNiL._AC_SL1500_.jpg
+# AG1 premium A+ modules
+aplus-1 https://m.media-amazon.com/images/S/aplus-media-library-service-media/3257bb23-7be9-4907-8f37-e64f7608963d.__CR0,0,1464,600_PT0_SX1464_V1___.jpg
+aplus-2 https://m.media-amazon.com/images/S/aplus-media-library-service-media/bdb90636-aa13-45fe-84ef-849c3dd2d482.__CR0,0,1464,600_PT0_SX1464_V1___.jpg
+aplus-3 https://m.media-amazon.com/images/S/aplus-media-library-service-media/a6c0682c-2f1d-4ea3-85e0-6ac6e90857d2.__CR0,0,1464,600_PT0_SX1464_V1___.png
+aplus-4 https://m.media-amazon.com/images/S/aplus-media-library-service-media/54bef1bd-3237-4ee2-92d7-84d9ea517da5.__CR0,0,1464,600_PT0_SX1464_V1___.jpg
+aplus-5 https://m.media-amazon.com/images/S/aplus-media-library-service-media/871ffc56-ab68-49e6-8846-2d71a3afe6dd.__CR0,0,1464,600_PT0_SX1464_V1___.jpg
+aplus-6 https://m.media-amazon.com/images/S/aplus-media-library-service-media/c23378aa-134d-41d2-b847-d7aa5a0b4855.__CR0,0,1464,600_PT0_SX1464_V1___.jpg
