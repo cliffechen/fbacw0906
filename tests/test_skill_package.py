@@ -35,6 +35,23 @@ class SkillPackageTests(unittest.TestCase):
                     self.assertTrue(target.is_relative_to(package_root))
                     self.assertTrue(target.is_file(), f"Missing linked file: {target}")
 
+    def test_readme_navigation_resolves_within_repository(self):
+        repository = SKILL_ROOT.parent.resolve()
+        readme = repository / "README.md"
+        text = readme.read_text(encoding="utf-8")
+        links = re.findall(r"\]\(([^)]+)\)", text)
+        self.assertTrue(links, "README must link to project documentation")
+        for raw_target in links:
+            url = urlsplit(raw_target)
+            if url.scheme in {"https", "http"}:
+                continue
+            with self.subTest(target=raw_target):
+                self.assertFalse(url.scheme, "Use portable relative links")
+                self.assertFalse(Path(url.path).is_absolute())
+                target = (repository / unquote(url.path)).resolve()
+                self.assertTrue(target.is_relative_to(repository))
+                self.assertTrue(target.is_file(), f"Broken README link: {target}")
+
 
 if __name__ == "__main__":
     unittest.main()
